@@ -269,3 +269,4 @@ void LinkedList<T>::appendAssign(LinkedList& l) {
 
     l.front = l.back = nullptr;
 }
+#endif 
