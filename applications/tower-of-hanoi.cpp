@@ -6,9 +6,9 @@ void towerOfHanoi(int k, char source, char dest, char temp) {
         return;
     }
 
-    hanoi(k - 1, source, temp, dest); // Move k-1 disks to temp
-    hanoi(1, source, dest, temp);     // Move 1 disk to dest
-    hanoi(k - 1, temp, dest, source); // Move k-1 to dest
+    towerOfHanoi(k - 1, source, temp, dest); // Move k-1 disks to temp
+    towerOfHanoi(1, source, dest, temp);     // Move 1 disk to dest
+    towerOfHanoi(k - 1, temp, dest, source); // Move k-1 to dest
 }
 
 int main() {
