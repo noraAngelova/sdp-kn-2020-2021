@@ -13,5 +13,5 @@ void towerOfHanoi(int k, char source, char dest, char temp) {
 
 int main() {
     towerOfHanoi(5, 'rod_A', 'rod_B', 'rod_C');
-	return 0;
+    return 0;
 }
