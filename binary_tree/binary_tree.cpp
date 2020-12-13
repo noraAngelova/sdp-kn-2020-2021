@@ -19,7 +19,7 @@ struct BinTreeNode {
 template <typename T>
 BinTreeNode<T>::BinTreeNode(const T& _data, BinTreeNode<T>* _left, BinTreeNode<T>* _right) :data(_data), left(_left), right(_right) {}
 
-template <class T>
+template <typename T>
 BinTreeNode<T>::BinTreeNode()
 {}
 
