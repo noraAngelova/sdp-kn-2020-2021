@@ -78,6 +78,12 @@ public:
         assignFrom(minRightTreePos, +minRightTreePos);
         return true;
     }
+    
+    // Публичен метод за извеждане на елементи на дърво    
+    void print(std::ostream& out) {
+        BinTree<T>::printTree(out);
+    }
+
 };
 
 #endif
