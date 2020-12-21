@@ -73,8 +73,6 @@ private:
 		int& bx = (*x).getBalance();
 		int& by = (*y).getBalance();
 
-		std::cout << bx << " " << by;
-
 		BinTree<AVLElement<T>>::assignFrom(+x, -y);
 		BinTree<AVLElement<T>>::assignFrom(-y, x);
 		BinTree<AVLElement<T>>::assignFrom(x, y);
@@ -97,7 +95,6 @@ private:
 		BinTree<AVLElement<T>> tmp;
 		BinTreePosition<AVLElement<T>> x = tmp.rootPos();
 		BinTree<AVLElement<T>>::assignFrom(x, -y);
-		std::cout << "right2";
 
 		int& bx = (*x).getBalance();
 		int& by = (*y).getBalance();
