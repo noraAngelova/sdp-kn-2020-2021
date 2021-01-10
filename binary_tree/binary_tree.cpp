@@ -285,7 +285,7 @@ template <typename T>
 BinTreePosition<T> BinTree<T>::copy(BinTreePosition<T> pos) {
     // Дървото е празно
     if (pos) {
-        root = new BinTreeNode<T>(*pos, copy(-pos).ptr(), copy(+pos).ptr());
+        root = new BinTreeNode<T>(*pos, *copy(-pos).ptr, *copy(+pos).ptr);
     }
     return rootPos();
 }
