@@ -1,5 +1,5 @@
-#ifndef __DICTIONARY_H
-#define __DICTIONARY_H
+#ifndef DICTIONARY_H
+#define DICTIONARY_H
 
 #include <vector>
 
