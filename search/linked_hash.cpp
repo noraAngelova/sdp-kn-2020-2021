@@ -1,5 +1,5 @@
-#ifndef LINKED_HASH_CPP
-#define LINKED_HASH_CPP
+#ifndef _LINKED_HASH_CPP
+#define _LINKED_HASH_CPP
 
 #include <iostream>
 
