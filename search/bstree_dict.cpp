@@ -3,7 +3,7 @@
 
 #include "dictionary.h"
 #include "key_value_pair.cpp"
-#include "binary_search_stree.cpp"
+#include "binary_search_tree.cpp"
 
 template <typename K, typename V>
 class BSTreeDictionary : public Dictionary<K, V>, BSTree<KeyValuePair<K, V>> {
