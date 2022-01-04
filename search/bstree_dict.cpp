@@ -1,5 +1,5 @@
-#ifndef _BSTREE_DICTIONARY_H
-#define _BSTREE_DICTIONARY_H
+#ifndef BSTREE_DICTIONARY_H
+#define BSTREE_DICTIONARY_H
 
 #include "dictionary.h"
 #include "key_value_pair.cpp"
